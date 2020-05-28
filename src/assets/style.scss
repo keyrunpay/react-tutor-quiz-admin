@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+.main-app {
+  display: grid;
+  grid-template-columns: 256px auto 200px;
+  .mid {
+    padding: 40px;
+  }
+}
+
+.main-app > div {
+  // border: 1px solid red;
+}
